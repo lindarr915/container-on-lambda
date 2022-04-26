@@ -1,0 +1,42 @@
+START RequestId: 0c501df0-7390-434f-9de6-5978eff6c3a6 Version: $LATEST
+YOLOv5  torch 1.8.0+cpu CPU
+
+Model Summary: 476 layers, 87212152 parameters, 0 gradients, 217.1 GFLOPS
+Namespace(agnostic_nms=False, augment=False, classes=None, conf_thres=0.25, device='', exist_ok=False, img_size=640, iou_thres=0.45, name='exp', project='runs/detect', save_conf=False, save_txt=False, source='./data/images/bus.jpg', update=False, view_img=False, weights=['best.pt'])
+Fusing layers... 
+image 1/1 /app/data/images/bus.jpg: 640x480 3 1s, Done. (1.017s)
+Results saved to runs/detect/exp
+Done. (1.046s)
+total 4
+drwxr-xr-x 2 root root 4096 Apr 26 08:50 exp
+
+END RequestId: 0c501df0-7390-434f-9de6-5978eff6c3a6
+REPORT RequestId: 0c501df0-7390-434f-9de6-5978eff6c3a6	Init Duration: 0.53 ms	Duration: 5333.07 ms	Billed Duration: 5334 ms	Memory Size: 5000 MB	Max Memory Used: 5000 MB	
+START RequestId: 44dee66d-05ac-437f-ba6b-c407dd61fcd4 Version: $LATEST
+YOLOv5  torch 1.8.0+cpu CPU
+
+Model Summary: 476 layers, 87212152 parameters, 0 gradients, 217.1 GFLOPS
+Namespace(agnostic_nms=False, augment=False, classes=None, conf_thres=0.25, device='', exist_ok=False, img_size=640, iou_thres=0.45, name='exp', project='runs/detect', save_conf=False, save_txt=False, source='./data/images/bus.jpg', update=False, view_img=False, weights=['best.pt'])
+Fusing layers... 
+image 1/1 /app/data/images/bus.jpg: 640x480 3 1s, Done. (0.962s)
+Results saved to runs/detect/exp
+Done. (0.992s)
+total 4
+drwxr-xr-x 2 root root 4096 Apr 26 08:51 exp
+
+END RequestId: 44dee66d-05ac-437f-ba6b-c407dd61fcd4
+REPORT RequestId: 44dee66d-05ac-437f-ba6b-c407dd61fcd4	Init Duration: 0.11 ms	Duration: 5192.11 ms	Billed Duration: 5193 ms	Memory Size: 5000 MB	Max Memory Used: 5000 MB	
+START RequestId: 9091e44f-a2d4-4f40-90bc-ef76341464f6 Version: $LATEST
+YOLOv5  torch 1.8.0+cpu CPU
+
+Model Summary: 476 layers, 87212152 parameters, 0 gradients, 217.1 GFLOPS
+Namespace(agnostic_nms=False, augment=False, classes=None, conf_thres=0.25, device='', exist_ok=False, img_size=640, iou_thres=0.45, name='exp', project='runs/detect', save_conf=False, save_txt=False, source='./data/images/bus.jpg', update=False, view_img=False, weights=['best.pt'])
+Fusing layers... 
+image 1/1 /app/data/images/bus.jpg: 640x480 3 1s, Done. (0.961s)
+Results saved to runs/detect/exp
+Done. (0.991s)
+total 4
+drwxr-xr-x 2 root root 4096 Apr 26 08:59 exp
+
+END RequestId: 9091e44f-a2d4-4f40-90bc-ef76341464f6
+REPORT RequestId: 9091e44f-a2d4-4f40-90bc-ef76341464f6	Init Duration: 0.13 ms	Duration: 5163.69 ms	Billed Duration: 5164 ms	Memory Size: 5000 MB	Max Memory Used: 5000 MB	

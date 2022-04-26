@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "my-pytorch-example"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1wt1hrjatp83o"
+s3_prefix = "my-pytorch-example"
+region = "us-west-2"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = ["InferenceFunction=091550601287.dkr.ecr.us-west-2.amazonaws.com/mypytorchexample3441d1ee/inferencefunction7c73919drepo"]
